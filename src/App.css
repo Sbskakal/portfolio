@@ -98,7 +98,7 @@
   background-image: url(./assets/lisr-good-kbr.png);
   width: 1408px;
   height: 967px;
-  right: 0;
+  left: 0;
   position: absolute;
   z-index: 2;
 }
@@ -119,6 +119,10 @@
   justify-content: center;
   align-items: center;
   position: relative;
+    background-position : center;
+  background-size: cover;
+  background-position : center;
+  background-size: cover;
 }
 .rbt{
   z-index: 1;
@@ -206,12 +210,15 @@
   position: absolute;
   top: 330px;
   z-index: 9;
+  background-position : center;
+  background-size: cover;
 }
 .hjr{
   background-image: url(./assets/7jr.png);
   width: 100%;
   height: 967px;
   position: absolute;
+  right: 0;
   top: -28px;
   z-index: 10;
   filter: drop-shadow(0  10px 8px rgba(46, 77, 255, 0.9));
