@@ -1,0 +1,218 @@
+*{
+  padding: 0;
+  margin: 0;
+  scrollbar-color:  #008080    #09095f;  
+  scrollbar-width: 10px;
+  font-family: 'sora',sans-serif;
+}
+
+.present{
+  position: absolute;
+  top: 160px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #00FFFF;
+  font-size: 24px;
+  text-align: center;
+  background-color: #00006d;
+  padding: 12px;
+  filter: drop-shadow(0 0 8px rgba(0, 255, 255, 0.8));
+  z-index: 10;
+}
+.all{
+  height: 3239px;
+  width: 100%;
+  background: linear-gradient(to bottom, #ff7e5f, #feb47b);
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+.ktaba{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  height: 30px;
+  flex-direction: column;
+  top: 20%;
+  left: 5%;
+  letter-spacing: 2px;
+  line-height: 1;
+  line-height: 1.2;
+}
+.bg{
+  width: 100%;
+  height: 967px;
+  position: absolute;
+  background-position: top;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  background-image: url(./assets/bg-good.png);
+}
+
+.me{
+  background-image: url(./assets/me.png);
+  background-size: cover ;
+  width: 30vw; /* 30% of window width */
+  aspect-ratio: 2 / 3;
+  /* 30% of window width */
+  right: 40px;
+  position: absolute;
+  z-index: 2;
+  animation: shines 1s ease-in-out infinite;
+}
+@keyframes shines {
+  0% {
+  filter: drop-shadow(0 0 15px rgba(5, 43, 255, 0.9));
+  }
+  50% {
+  filter: drop-shadow(0 0 30px rgba(5, 43, 255, 0.9));
+  }
+  100% {
+  filter: drop-shadow(0 0 15px rgba(5, 43, 255, 0.9));
+  }
+}
+.hey{
+  z-index: 3;
+}
+.middle{
+  background-image: url(./assets/try.png);
+  width: 100%;
+  height: 967px;
+  background-position:center;
+  background-size: cover;
+  position: absolute;
+  z-index: 1;
+}
+.front{
+  background-image: url(./assets/limn-kbr-good.png);
+  width: 1408px;
+  height: 967px;
+  position: absolute;
+  right: 0;
+  z-index: 3;
+}
+.lront{
+  background-image: url(./assets/lisr-good-kbr.png);
+  width: 1408px;
+  height: 967px;
+  right: 0;
+  position: absolute;
+  z-index: 2;
+}
+.after{
+  z-index: 1;
+  width: 100%;
+  height: 2400px;
+  background-color:#afcffc;
+  position: absolute;
+}
+.mnb3d{
+  background-image: url(./assets/mnb3d-goodc.png) ;
+  width: 100%;
+  height: 967px;
+  top: 900px;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.rbt{
+  z-index: 1;
+  width: 100%;
+  height: 600px;
+  top: 1867px;
+  position:absolute;
+  background-image: linear-gradient(to bottom, #010169, #010125);
+}
+.l7otabg{
+  background-image: url(./assets/whalebg.png);
+  width: 1408px; 
+  height: 939px;
+  top: 2300px;
+  z-index: 5;
+  position: absolute;
+  background-position: center;
+  filter: brightness(100%) ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.whale{
+  background-image: url(./assets/whale.png); 
+  width: 600px;
+  height: 400px;
+  position: absolute;
+  left: 20px;
+  background-size: cover;
+  background-position: center;
+  z-index: 8;
+  animation: whaleSlide 5s ease-in-out infinite;
+}
+
+
+.crystal{
+  background-image: url(./assets/crystal.png);
+  width: 200px;
+  height: 260px;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  z-index: 8;
+  animation: whaleSlide 6s ease-in-out infinite;
+  filter: drop-shadow(0 0 8px rgba(5, 43, 255, 0.9));
+}
+.shadow{
+  background-color: #01016b;
+  height: 40px;
+  left: 615px;
+  border-radius: 70%;
+  width: 200px;
+  position: absolute;
+  top: 870px;
+  animation: tinier 6s ease-in-out infinite;
+}
+
+@keyframes tinier {
+  0% {
+    transform: scale(0.9);
+  }
+  50% {
+    transform: scale(0.7);
+  }
+  100% {
+    transform: scale(0.9);
+  }
+}
+
+@keyframes whaleSlide {
+  0% {
+    top: 200px;
+  }
+  50% {
+    top: 230px;
+  }
+  100% {
+    top: 200px;
+  }
+}
+.crystals{
+  background-image: url(./assets/crystal-good.png);
+  height: 967px;
+  width: 100%;
+  position: absolute;
+  top: 330px;
+  z-index: 9;
+}
+.hjr{
+  background-image: url(./assets/7jr.png);
+  width: 100%;
+  height: 967px;
+  position: absolute;
+  top: -28px;
+  z-index: 10;
+  filter: drop-shadow(0  10px 8px rgba(46, 77, 255, 0.9));
+}
