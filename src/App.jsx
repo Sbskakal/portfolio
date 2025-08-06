@@ -68,39 +68,39 @@ function App() {
           ></div>
         </div>
         <div className="rbt"></div>
-        <div className="l7otabg">
-          <div className="hjr">
+        <div className="hjr">
+          <img
+            src="https://img.icons8.com/?size=100&id=53889&format=png&color=000000"
+            style={{
+              right: "142px",
+              top: "820px",
+              position: "absolute",
+              cursor: "pointer",
+            }}
+          />
+          <a href="https://www.tiktok.com/@zeleas5?_t=ZS-8ye8u9GM3Fo&_r=1">
             <img
-              src="https://img.icons8.com/?size=100&id=53889&format=png&color=000000"
+              src="https://img.icons8.com/?size=100&id=HjzuIwamFPXs&format=png&color=000000"
               style={{
-                right: "142px",
-                top: "820px",
+                right: "32px",
+                top: "620px",
                 position: "absolute",
                 cursor: "pointer",
               }}
             />
-            <a href="https://www.tiktok.com/@zeleas5?_t=ZS-8ye8u9GM3Fo&_r=1">
-              <img
-                src="https://img.icons8.com/?size=100&id=HjzuIwamFPXs&format=png&color=000000"
-                style={{
-                  right: "32px",
-                  top: "620px",
-                  position: "absolute",
-                  cursor: "pointer",
-                }}
-              />
-            </a>
+          </a>
 
-            <img
-              src="https://img.icons8.com/?size=100&id=JeO1Kv9jsmLr&format=png&color=000000"
-              style={{
-                right: "82px",
-                top: "320px",
-                position: "absolute",
-                cursor: "pointer",
-              }}
-            />
-          </div>
+          <img
+            src="https://img.icons8.com/?size=100&id=JeO1Kv9jsmLr&format=png&color=000000"
+            style={{
+              right: "82px",
+              top: "320px",
+              position: "absolute",
+              cursor: "pointer",
+            }}
+          />
+        </div>
+        <div className="l7otabg">
           <div className="whale"></div>
         </div>
       </div>

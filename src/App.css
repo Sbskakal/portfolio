@@ -221,11 +221,18 @@ body, html{
 }
 .hjr{
   background-image: url(./assets/7jr.png);
-  width: 100%;
+  width: 100vw;
   height: 967px;
   position: absolute;
-  left: 1%;
-  top: -28px;
+  right:0;
+  left :auto;
+  top: 2272px;
   z-index: 10;
   filter: drop-shadow(0  10px 8px rgba(46, 77, 255, 0.9));
+}
+@media (max-width: 600px) {
+  .hjr {
+    width: 100vw;
+    min-width: 0;
+  }
 }
