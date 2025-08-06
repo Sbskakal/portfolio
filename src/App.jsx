@@ -11,10 +11,10 @@ import Dj from "./dj.jsx";
 function App() {
   const [count, setCount] = useState(40);
   const prev = useRef(window.scrollY);
+
   useEffect(() => {
     function handle(a) {
       let dif = a - prev.current;
-      console.log(dif);
       setCount((c) => c + dif / 2);
       prev.current = window.scrollY;
     }
